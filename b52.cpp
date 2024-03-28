@@ -3,15 +3,15 @@
 using namespace std ;
 
 int main () {
-    int n,i ,sodu,bientam ,max;
+    int n,i ,sodu,bientam ,min;
     cout<<"Nhap 1 so nguyen duong n : ";cin>>n;
     bientam = n ;
     sodu = bientam%10;
-    max = sodu ;
+    min = sodu ;
     while (bientam!=0) {
         sodu = bientam%10;
         bientam = bientam /10;
-        if (max < sodu) max = sodu; 
+        if (min > sodu) min =sodu; 
     }; 
-    cout<<"so du lon nhat : "<<max;
+    cout<<"so du nho nhat : "<<min;
 }

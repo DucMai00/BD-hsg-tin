@@ -3,7 +3,7 @@
 using namespace std ;
 
 int main () {
-    int n,i ,sodu,bientam , tich= 1;
+    int n,i ,sodu,bientam ;
     cout<<"Nhap 1 so nguyen duong n : ";cin>>n;
     bientam = n ;
     cout<<"chu so dao nguoc :";
